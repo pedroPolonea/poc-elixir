@@ -19,3 +19,12 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/fizz_buzz](https://hexdocs.pm/fizz_buzz).
 
+
+### Compila
+mix compile
+#### Roda o projeto dentro do iex
+iex -S mix
+### Executa o projeto
+FizzBuzz.build("numbers.txt")
+### Recompilar Projeto 
+recompile
